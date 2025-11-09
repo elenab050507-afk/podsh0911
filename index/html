@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        p {
+            color: #34495e;
+            line-height: 1.6;
+        }
+        .success {
+            color: #27ae60;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Ура! Мой сайт работает!</h1>
+        <p>Это мой первый сайт, опубликованный на GitHub Pages.</p>
+        <p class="success">Всё настроено правильно!</p>
+        <p>Теперь я могу добавлять сюда любой контент:</p>
+        <ul>
+            <li>Текст</li>
+            <li>Картинки</li>
+            <li>Ссылки</li>
+            <li>И многое другое!</li>
+        </ul>
+    </div>
+</body>
+</html>
